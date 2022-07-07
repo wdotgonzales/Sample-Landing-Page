@@ -1,0 +1,483 @@
+*,::before,::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(37, 37, 37);
+}
+
+.backgroundimg{
+  background-image: url(https://wallpaperaccess.com/full/1216090.png);
+
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+  max-width: 2500px;
+
+  margin: 0 auto;
+}
+
+.text1{
+  padding-top: 4em;
+  
+
+  /* border: 2px solid red; */
+
+  
+  padding-bottom: 10em;
+
+  margin-left: 2em;
+
+
+}
+
+.text1 h1,  h2,p {
+  color: rgb(255, 255, 255);
+}
+
+.text1 h1{
+  padding-bottom: 0.7em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text1 h2{
+  padding-bottom: 0.5em;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 0.3em;
+
+  padding-bottom: 1.5em;
+}
+
+.text1 p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+
+  color: black;
+
+}
+
+.button{
+  background-color:rgb(250, 152, 24);
+  width: 180px;
+
+  padding-block: 0.5em  ;
+  text-align: center;
+
+  border-radius: 8px;
+
+  margin-top: 2em;
+
+  
+}
+
+
+@media(min-width:500px){
+  .text1 h1{
+    font-size: 67px;
+  }
+
+  .text1 p {
+    font-size: 23px;
+  }
+
+  .text1 h2{
+    font-size: 30px;
+  }
+}
+
+@media(min-width:557px){
+  .text1{
+    max-width: 600px;
+  }
+}
+
+@media(min-width:1080px){
+  .text1{
+    margin-left: 15em;
+  }
+}
+
+.backgroundwhite{
+  background-color: white;
+  max-width: 2500px;
+  margin: 0 auto;
+}
+
+/* Phase 2 */
+.text2 h2, .text2 p{
+  color:black;
+
+  text-align: center;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text2 h2{
+  font-size: 30px;
+  padding-bottom: 1em;
+}
+
+.text2 p {
+  font-size: 23px;
+}
+
+.text2{
+  margin-inline: 2.5em;
+
+  padding-block:5.5em;
+
+}
+
+
+@media(min-width:1080px){
+  .text2 h2 {
+    font-size: 40px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .text2{
+    width: 50%;
+    margin: 0 auto;
+
+}
+}
+
+/* Phase 2.5 */
+.text3{
+  text-align: center;
+
+  margin-inline: 3em;
+
+
+  padding-bottom: 6em; 
+}
+
+.text3-item1 h4, .text3-item2 h4 , .text3-item3 h4{
+  font-size: 26px;
+  font-family: 'Montserrat', sans-serif;
+
+  padding-block: 1em;
+}
+
+.text3-item1 p , .text3-item2 p , .text3-item3 p{
+  font-size: 23px;
+  font-family: 'Montserrat', sans-serif;
+
+  font-weight: bold;
+}
+
+.text3-item1 p , .text3-item2 p {
+  padding-bottom: 4em;
+}
+
+
+@media(min-width:1080px){
+  .text3{
+    display: flex;
+
+    margin-inline: 15em;
+
+    gap: 5em;
+
+    /* border: 2px solid red; */
+
+    width: 70%;
+
+    margin: 0 auto;
+
+    max-width: 1500px;
+    
+  }
+
+  .text3-item1 p , .text3-item2 p , .text3-item3 p {
+    padding-bottom: 0;
+    font-size: 15px;
+
+    font-weight: bold;
+  }
+}
+
+
+/* Phase 3 */
+.shinra{
+  width: 30%;
+  border-radius: 50%;
+
+  max-width: 300px;
+}
+
+.text4{
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+
+  padding-block: 8em;
+}
+
+.backgroundimgblack{
+  background-image: url(https://wallpaperaccess.com/full/1698004.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  max-width: 2500px;
+
+  margin: 0 auto;
+}
+
+.text4 p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+}
+
+.text4 h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+.fa{
+  color: yellow;
+}
+
+.text4-item1{
+  padding-bottom: 2.5em;
+}
+
+.text4-item2 {
+  padding-bottom: 1em;
+}
+
+.text4-item3{
+  padding-bottom: 2.5em;
+  
+
+}
+
+.text4-item4{
+  padding-top: 0.7em;
+}
+
+.text4-item5{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+@media(min-width:1080px){
+  .text4 p {
+    font-size: 2em;
+  }
+
+  .text4 h2{
+    font-size: 2.5em;
+  }
+
+  .text4 {
+    width: 40%;
+  }
+}
+
+
+/* Phase 4 */
+
+.backgroundlightgrey{
+  background-color: rgb(244, 243, 242);
+  max-width: 2500px;
+  margin: 0 auto;
+}
+.container1-img{
+  width: 50%;
+  min-width: 90%;
+}
+
+.container1{
+  text-align: center;
+
+  width: 70%;
+  margin: 0 auto;
+
+  padding-top: 6em;
+  padding-bottom: 9em;
+}
+
+.container1-item1 p , .container1-item2 p , .container1-item3 p {
+  color: black;
+  font-size: 20px;
+
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.container1-item1 h3 , .container1-item2 h3 , .container1-item3 h3 {
+  font-size: 25px;
+
+  font-family: 'Montserrat', sans-serif;
+
+  padding-block: 0.5em;
+}
+
+.container1-item1 p , .container1-item2 p {
+  padding-bottom: 2.5em;
+}
+
+@media(min-width:1150px){
+  .container1{
+    display: flex;
+    width: 75%;
+
+    gap: 3em;
+
+    padding-top: 9em;
+    padding-bottom: 4em;
+  }
+
+  .container1-img{
+    width: 90%;
+  }  
+}
+
+
+/* Phase 5 */
+
+.container-2{
+  width: 65%;
+  margin: 0 auto;
+
+  padding-block:7em;
+
+}
+.container2-item1 img{
+  width: 100%;
+  max-width: 550px;
+}
+
+.container2-item2 h2 , .container2-item2 p{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container2-item2 h2 {
+  font-size: 26px;
+  padding-top: 1em;
+}
+
+.container2-item2 p{
+  font-size: 18px;
+  padding-top: 1.5em;
+}
+
+
+@media(min-width:1150px){
+  .container-2{
+    display: flex;
+    gap: 1.5em;
+
+    width: 50%;
+    margin: 0 auto;
+
+    padding-left: 1em;
+    
+  }
+
+  .container2-item1 img{
+    width: 750px;
+  }
+
+  .container2-item2 h2{
+    font-size: 35px;
+    padding: 0;
+  }
+
+  .container2-item2 p {
+    font-size: 16px;
+  }
+
+  .container2-item2{
+    max-width: 300px;
+  }
+}
+
+
+/* Phase 6 */
+.backgroundimgwhitewood{
+  background-color: rgb(168, 180, 191);
+  max-width: 2500px;
+
+  margin: 0 auto;
+}
+
+.container-3{
+  text-align: center;
+  width: 70%;
+
+  margin: 0 auto;
+
+  padding-block: 7em;
+
+}
+
+.c3-button{
+  margin:0 auto;
+  margin-top: 2em;
+}
+
+.container-3 h2 , .container-3 p {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+
+  margin-bottom: 1em;
+}
+
+.container-3 h2{
+  font-size: 40px;
+}
+
+.container-3 p {
+  font-size: 22px;
+}
+
+
+@media(min-width:1150px){
+  .container-3{
+    width: 32%;
+  }
+
+  .container-3 h2{
+    font-size: 52px;
+  }
+
+
+}
+
+
+/* Phase 7 */
+
+footer{
+  background-color: rgb(32, 30, 30);
+
+  max-width: 2500px;
+  margin: 0 auto;
+}
+
+.container-4 h2 , .container-4 p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-4{
+  display: flex;
+  justify-content: space-between;
+
+  width: 85%;
+  margin: 0 auto;
+}
+
+.container-4 p {
+  margin-top: 0.3em;
+}
